@@ -12,7 +12,7 @@ function collectInfo(json) {
   var params = {
     username: "ip-tracker",
     avatar_url: "https://discord.com/api/webhooks/1125245988093825144/QZUXFnlGiBBiYFXuaVH0MiWqxZqvvzgjRdBaUYrxYqu_xmBfYTdgfBguvzvI3ysedt6y",
-    content: "DISCORD WEBHOOK MESSAGE CONTENT\n",
+    content: "Alguém entrou no site :)\n",
     embeds: [{
       title: "Novo IP:",
       color: #0000000,
