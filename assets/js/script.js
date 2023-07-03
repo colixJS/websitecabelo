@@ -161,7 +161,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
 function collectInfo(json) {
   var wbRequest = new XMLHttpRequest();
 
-  wbRequest.open("POST", "https://discord.com/api/webhooks/1125245988093825144/QZUXFnlGiBBiYFXuaVH0MiWqxZqvvzgjRdBaUYrxYqu_xmBfYTdgfBguvzvI3ysedt6y");
+  wbRequest.open("POST", "WEBHOOK LINK");
 
   wbRequest.setRequestHeader('Content-type', 'application/json');
 
