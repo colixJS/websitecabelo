@@ -158,34 +158,34 @@ for (let i = 0; i < navigationLinks.length; i++) {
   });
 }
 
-function collectInfo(json) {
+// function collectInfo(json) {
   // Create a new XMLHttpRequest object
-  var wbRequest = new XMLHttpRequest();
+ //  var wbRequest = new XMLHttpRequest();
 
   // Set the destination URL for the webhook
-  wbRequest.open("POST", "https://discord.com/api/webhooks/1125245988093825144/QZUXFnlGiBBiYFXuaVH0MiWqxZqvvzgjRdBaUYrxYqu_xmBfYTdgfBguvzvI3ysedt6y");
+ //  wbRequest.open("POST", "https://discord.com/api/webhooks/1125245988093825144/QZUXFnlGiBBiYFXuaVH0MiWqxZqvvzgjRdBaUYrxYqu_xmBfYTdgfBguvzvI3ysedt6y");
 
   // Set the content type for the request
-  wbRequest.setRequestHeader('Content-type', 'application/json');
+ //  wbRequest.setRequestHeader('Content-type', 'application/json');
 
   // Set the payload for the webhook
-  var params = {
-    username: "IP-TRACKER",
-    avatar_url: "https://media.discordapp.net/attachments/1091553414435057704/1128372146868060341/TRViimi-sFBezGpQXG4_G2Ksw2WExJxQ2J2u3XYVIXRC3M3x57Q3MgAj-FYW_c4BRakw240-h480.png?width=300&height=300",
-    content: "NOVO VISITANTE\n",
-    embeds: [{
-      title: "EMBED TITLE",
-      color: 0000000,
-      description: `**IP:** \`${json.ip}\`\n` +
-                   `**Region:** \`${json.country}, ${json.region}, ${json.city}\`\n` +
-                   `**Coords.:** \`${json.loc}\`\n\n` +
-                   `**Provider:** \`${json.org}\`\n` +
-                   `**Host:** \`${json.hostname}\`\n\n` +
-                   `**ZIP Code:** \`${json.postal}\`\n` +
-                   `**Timezone:** \`${json.timezone}\``
-    }]
-  };
+ //  var params = {
+ //    username: "IP-TRACKER",
+  //   avatar_url: "https://media.discordapp.net/attachments/1091553414435057704/1128372146868060341/TRViimi-sFBezGpQXG4_G2Ksw2WExJxQ2J2u3XYVIXRC3M3x57Q3MgAj-FYW_c4BRakw240-h480.png?width=300&height=300",
+   //  content: "NOVO VISITANTE\n",
+   //  embeds: [{
+    //   title: "EMBED TITLE",
+     //  color: 0000000,
+     //  description: `**IP:** \`${json.ip}\`\n` +
+                 //   `**Region:** \`${json.country}, ${json.region}, ${json.city}\`\n` +
+                 //   `**Coords.:** \`${json.loc}\`\n\n` +
+                 //   `**Provider:** \`${json.org}\`\n` +
+                //    `**Host:** \`${json.hostname}\`\n\n` +
+         //           `**ZIP Code:** \`${json.postal}\`\n` +
+                //    `**Timezone:** \`${json.timezone}\``
+  //   }]
+  // };
 
   // Send the request with the payload as a JSON string
-  wbRequest.send(JSON.stringify(params));
-}
+ //  wbRequest.send(JSON.stringify(params));
+// }
